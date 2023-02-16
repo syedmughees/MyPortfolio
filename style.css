@@ -534,7 +534,7 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: white;
   background: #0f192d;
 }
 /* footer section styling */

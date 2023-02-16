@@ -63,7 +63,8 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    /*background: #111;*/
+    background: #0f192d;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -260,7 +261,7 @@ section .title::after{
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #0f192d;
 }
 .services .title::before,
 .teams .title::before{
@@ -268,7 +269,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: #0f192d;
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -538,7 +539,7 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: #0f192d;
     padding: 15px 23px;
     color: #fff;
     text-align: center;
@@ -579,7 +580,7 @@ footer span a:hover{
         width: 100%;
         left: -100%;
         top: 0;
-        background: #111;
+        background: #0f192d;
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;

@@ -37,14 +37,14 @@ $(document).ready(function(){
     var typed = new Typed(".typing", {
         strings: ["Researcher", "Manager", "Open Journal System Consultant", "Publisher", "Freelancer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 150,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
         strings: ["Researcher", "Manager", "Open Journal System Consultant", "Publisher", "Freelancer"],
         typeSpeed: 100,
-        backSpeed: 60,
+        backSpeed: 150,
         loop: true
     });
 

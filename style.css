@@ -276,8 +276,8 @@ section .title::after{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
-    border-radius: 4px;
-    padding: 100px 40px;
+    border-radius: 6px;
+    padding: 80px 40px;
     cursor: pointer;
     transition: all 0.3s ease;
 }

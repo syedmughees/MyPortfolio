@@ -277,7 +277,7 @@ section .title::after{
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 60px 60px;
+    padding: 80px 80px;
     cursor: pointer;
     transition: all 0.3s ease;
 }

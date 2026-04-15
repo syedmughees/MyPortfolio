@@ -273,11 +273,11 @@ section .title::after{
     content: "what i provide";
 }
 .services .serv-content .card{
-    width: calc(33% - 10px);
+    width: calc(25% - 10px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 80px 40px;
+    padding: 90px 50px;
     cursor: pointer;
     transition: all 0.3s ease;
 }

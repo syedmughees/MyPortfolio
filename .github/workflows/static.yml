@@ -25,11 +25,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
-        uses: actions/configure-pages@v5 # Updated from v4
+        uses: actions/configure-pages@v5 # Upgraded to v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3 # Updated from v4 (v3 is the correct latest for this specific action)
+        uses: actions/upload-pages-artifact@v3 # Use v3 for Pages (internally uses v4 engine)
         with:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4 # Use v4 for Pages

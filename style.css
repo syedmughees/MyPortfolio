@@ -197,6 +197,13 @@ section .title::after{
     color: crimson;
     font-weight: 500;
 }
+.home .home-content .text-4{
+    font-size: 24px;
+    margin-top: 15px;
+    color: #ddd;
+    max-width: 700px;
+    line-height: 1.6;
+}
 .home .home-content a{
     display: inline-block;
     background: crimson;

@@ -491,51 +491,87 @@ section .title::after{
 
 }
 
-/* teams section styling */
+/* Portfolio section styling */
+
 .teams .title::after{
     content: "My Portfolio";
 }
+
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
-    padding: 25px 35px;
+    padding: 35px 25px;
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+
+    min-height: 280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .teams .carousel .card:hover{
     background: crimson;
 }
+
 .teams .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
+
+    width: 100%;
 }
+
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
-}
-.teams .carousel .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid crimson;
+
+.teams .carousel .card .project-icon{
+    font-size: 65px;
+    color: crimson;
+    margin-bottom: 25px;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
-    border-color: #fff;
+
+.teams .carousel .card:hover .project-icon{
+    color: #fff;
 }
+
+.teams .carousel .card .text{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.teams .carousel .card p{
+    font-size: 17px;
+    line-height: 1.7;
+    color: #ddd;
+}
+
+.teams .carousel .card:hover p{
+    color: #fff;
+}
+
+/* Remove old image styling completely */
+/*
+.teams .carousel .card img{
+    ...
+}
+*/
+
+/* carousel dots */
+
 .owl-dots{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
+
 .owl-dot{
     height: 13px;
     width: 13px;
@@ -545,14 +581,17 @@ section .title::after{
     border: 2px solid crimson!important;
     transition: all 0.3s ease;
 }
+
 .owl-dot.active{
     width: 35px;
     border-radius: 14px;
 }
+
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
 }
+
 
 /* contact section styling */
 .contact .title::after{

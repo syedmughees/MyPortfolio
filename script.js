@@ -32,36 +32,39 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
-
+    
     // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: [
-        "OJS Consultant",
-        "Crossref Ambassador",
-        "Journal Publishing Specialist",
-        "OJS Plugin Developer",
-        "Publishing Workflow Consultant",
-        "Academic Journal Trainer"
-    ],
-    typeSpeed: 100,
-    backSpeed: 40,
-    loop: true
-});
-
-var typed2 = new Typed(".typing-2", {
-    strings: [
-        "OJS Consultant",
-        "Crossref Ambassador",
-        "Journal Publishing Specialist",
-        "OJS Plugin Developer",
-        "Publishing Workflow Consultant",
-        "Academic Journal Trainer"
-    ],
-    typeSpeed: 100,
-    backSpeed: 40,
-    loop: true
-});
-
+    if ($(".typing").length) {
+        var typed = new Typed(".typing", {
+            strings: [
+                "OJS Consultant",
+                "Crossref Ambassador",
+                "Journal Publishing Specialist",
+                "OJS Plugin Developer",
+                "Publishing Workflow Consultant",
+                "Academic Journal Trainer"
+            ],
+            typeSpeed: 100,
+            backSpeed: 40,
+            loop: true
+        });
+    }
+    
+    if ($(".typing-2").length) {
+        var typed2 = new Typed(".typing-2", {
+            strings: [
+                "OJS Consultant",
+                "Crossref Ambassador",
+                "Journal Publishing Specialist",
+                "OJS Plugin Developer",
+                "Publishing Workflow Consultant",
+                "Academic Journal Trainer"
+            ],
+            typeSpeed: 100,
+            backSpeed: 40,
+            loop: true
+        });
+    }
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,

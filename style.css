@@ -402,6 +402,87 @@ section .title::after{
     width: 70%;
 }
 
+/* journals section styling */
+
+.journals{
+    background: #fff;
+    color: #111;
+    font-family: 'Poppins', sans-serif;
+}
+
+.journals .title::after{
+    content: "published journals";
+}
+
+.journals-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.journal-card{
+    background: #f7f7f7;
+    border-radius: 8px;
+    padding: 35px 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #e5e5e5;
+}
+
+.journal-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.journal-card i{
+    font-size: 55px;
+    color: crimson;
+    margin-bottom: 20px;
+}
+
+.journal-card h3{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.journal-card p{
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.journal-card a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.journal-card a:hover{
+    background: #0f192d;
+}
+
+/* responsive */
+
+@media (max-width: 947px){
+
+    .journals-content{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 690px){
+
+    .journals-content{
+        grid-template-columns: 1fr;
+    }
+
+}
+
 /* teams section styling */
 .teams .title::after{
     content: "My Portfolio";

@@ -37,11 +37,12 @@ $(document).ready(function(){
     if ($(".typing").length) {
         var typed = new Typed(".typing", {
             strings: [
-                "OJS Consultant",
-                "Crossref Ambassador",
-                "Journal Publishing Specialist",
-                "OJS Plugin Developer",
-                "Publishing Workflow Consultant",
+                "OJS Publishing Consultant",
+                "Crossref & DOI Integration Specialist",
+                "Crossmark Integration Specialist",
+                "Academic Journal Systems Expert",
+                "OJS Plugin & Workflow Developer",
+                "Journal Migration Consultant",
                 "Academic Journal Trainer"
             ],
             typeSpeed: 100,

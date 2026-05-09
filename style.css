@@ -263,46 +263,68 @@ section .title::after{
     color:#fff;
     background: #0f192d;
 }
+
 .services .title::before,
 .teams .title::before{
     background: #fff;
 }
+
 .services .title::after,
 .teams .title::after{
     background: #0f192d;
     content: "what i provide";
 }
+
+.services .serv-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
 .services .serv-content .card{
-    width: calc(33% - 10px);
     background: #222;
     text-align: center;
     border-radius: 6px;
-    padding: 40px 5px;
+    min-height: 230px;
+    padding: 35px 25px;
     cursor: pointer;
     transition: all 0.3s ease;
-    margin: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .services .serv-content .card:hover{
     background: crimson;
 }
+
 .services .serv-content .card .box{
     transition: all 0.3s ease;
 }
+
 .services .serv-content .card:hover .box{
     transform: scale(1.05);
 }
+
 .services .serv-content .card i{
     font-size: 50px;
     color: crimson;
     transition: color 0.3s ease;
+    display: block;
+    margin-bottom: 18px;
 }
+
 .services .serv-content .card:hover i{
     color: #fff;
 }
+
 .services .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    line-height: 1.35;
+    margin: 0;
 }
 
 /* skills section styling */

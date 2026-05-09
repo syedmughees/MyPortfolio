@@ -35,18 +35,29 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Crossref Ambassador", "OJS Consultant", "Trainer", "Researcher", "Journal Publishing Expert", "Rssearch Journal Publisher"],
-        typeSpeed: 100,
-        backSpeed: 40,
-        loop: true
-    });
+        strings: [
+        "OJS Consultant",
+        "Crossref Ambassador",
+        "Journal Publishing Specialist",
+        "OJS Plugin Developer",
+        "Publishing Workflow Consultant",
+        "Academic Journal Trainer"
+    ],
+    typeSpeed: 100,
+    backSpeed: 40,
+    loop: true
+});
 
-    var typed = new Typed(".typing-2", {
-        strings: ["Crossref Ambassador","OJS Consultant", "Trainer", "Researcher", "Journal Publishing Expert", "Rssearch Journal Publisher"],
-        typeSpeed: 100,
-        backSpeed: 40,
-        loop: true
-    });
+var typed2 = new Typed(".typing-2", {
+    strings: [
+        "OJS Consultant",
+        "Publishing Specialist",
+        "Crossref Ambassador"
+    ],
+    typeSpeed: 100,
+    backSpeed: 40,
+    loop: true
+});
 
     // owl carousel script
     $('.carousel').owlCarousel({

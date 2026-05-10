@@ -38,6 +38,7 @@ $(document).ready(function(){
         var typed = new Typed(".typing", {
             strings: [
                 "OJS Publishing Consultant",
+                "Crossref Ambassador in Pakistan",
                 "Crossref & DOI Integration Specialist",
                 "Crossmark Integration Specialist",
                 "Academic Journal Systems Expert",
@@ -55,6 +56,7 @@ $(document).ready(function(){
         var typed2 = new Typed(".typing-2", {
             strings: [
                 "OJS Publishing Consultant",
+                "Crossref Ambassador in Pakistan",
                 "Crossref & DOI Integration Specialist",
                 "Crossmark Integration Specialist",
                 "Academic Journal Systems Expert",

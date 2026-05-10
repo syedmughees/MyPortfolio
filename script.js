@@ -39,6 +39,7 @@ $(document).ready(function(){
             strings: [
                 "OJS Publishing Consultant",
                 "Crossref Ambassador in Pakistan",
+                "Journal Indexing Expert",
                 "Crossref & DOI Integration Specialist",
                 "Crossmark Integration Specialist",
                 "Academic Journal Systems Expert",

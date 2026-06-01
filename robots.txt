@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://syedmughees.pages.devsitemap.xml
+Sitemap: https://syedmughees.pages.dev/sitemap.xml
